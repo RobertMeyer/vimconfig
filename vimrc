@@ -26,6 +26,8 @@ Bundle 'scrooloose/nerdtree'
 Bundle 'scrooloose/nerdcommenter'
 Bundle 'scrooloose/syntastic'
 Bundle 'SirVer/ultisnips'
+Bundle 'rstacruz/sparkup'
+Bundle 'skammer/vim-css-color'
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Nerd Tree

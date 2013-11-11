@@ -3,4 +3,5 @@ Plugins:
   * NerdCommenter
   * Syntastic
   * UltiSnips
-  *  
+  * vim-css-color
+  * Sparkup  

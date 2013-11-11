@@ -28,6 +28,7 @@ Bundle 'scrooloose/syntastic'
 Bundle 'SirVer/ultisnips'
 Bundle 'rstacruz/sparkup'
 Bundle 'skammer/vim-css-color'
+Bundle 'kien/ctrlp.vim'
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Nerd Tree

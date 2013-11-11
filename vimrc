@@ -29,6 +29,8 @@ Bundle 'SirVer/ultisnips'
 Bundle 'rstacruz/sparkup'
 Bundle 'skammer/vim-css-color'
 Bundle 'kien/ctrlp.vim'
+Bundle 'Lokaltog/vim-easymotion'
+Bundle 'tpope/vim-fugitive'
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Nerd Tree

@@ -16,3 +16,6 @@ autocmd vimenter * wincmd p
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 
 filetype plugin on
+
+" Map the leader key to ,
+let mapleader = ","

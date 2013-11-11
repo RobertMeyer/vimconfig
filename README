@@ -1,4 +1,6 @@
-Installed plugins:
+Plugins:
   * NerdTree
   * NerdCommenter
-  * 
+  * Syntastic
+  * UltiSnips
+  *  

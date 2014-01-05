@@ -26,13 +26,14 @@ Bundle 'scrooloose/nerdtree'
 Bundle 'scrooloose/nerdcommenter'
 Bundle 'scrooloose/syntastic'
 Bundle 'SirVer/ultisnips'
-Bundle 'rstacruz/sparkup'
-Bundle 'skammer/vim-css-color'
+Bundle 'mattn/emmet-vim'
+Bundle 'ap/vim-css-color'
 Bundle 'kien/ctrlp.vim'
 Bundle 'Lokaltog/vim-easymotion'
 Bundle 'tpope/vim-fugitive'
 Bundle 'bling/vim-airline'
 Bundle 'morhetz/gruvbox'
+Bundle 'myusuf3/numbers.vim'
 
 colorscheme gruvbox
 set bg=dark
@@ -59,7 +60,19 @@ set t_Co=256
 set ttimeoutlen=50
 
 set encoding=utf-8
+filetype off
 filetype plugin indent on
 
 " Map the leader key to ,
 let mapleader = ","
+
+" Tab indent options
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
+set smarttab
+set expandtab
+
+" Filetype tab indent overrides.
+autocmd FileType python setlocal shiftwidth=2 tabstop=2
+autocmd FileType ruby setlocal shiftwidth=2 tabstop=2
